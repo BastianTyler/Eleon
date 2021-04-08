@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@1,700&display=swap" rel="stylesheet">
+<script async src="master.js"></script>
+<script async src="./FileSaver.min.js"></script>
+<script async src="fileGenerator.js"></script>
+    </head>
+    <body>
+        <header class="navbar">
+            <ul class="nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#nCharachter">Charachter Builder</a></li>
+                <li><a href="#nWeapon">Weapon Builder</a></li>
+                <li><a href="#nArmor">Armor Builder</a></li>
+                <li><a href="#nMisc">Misc Builder</a></li>
+            </ul>
+        </header>
+     <div class="home-container" id="home">
+        <div class="row">
+            <div class="column">
+                    <h1>Eleon Resource Pack</h1>
+                    <button class="jello-horizontal, resource-pack-download"type="button"><a href="Eleon v1.01.zip">Download</a></button>
+            </div>
+        </div>
+     </div>
+<!-- 
+    Charachter Models File Constructor
+ -->
+     <div class="charachter-file-constructor-container" id="nCharachter">
+        <div class="row">
+            <div class="column">
+
+                <!-- Charachter Constructor -->
+
+                <section class="fileConstructor active" id="charachter">
+                   
+                <label>Model Name</label>
+                <input type="text" id="filename" value="example.properties"/>
+
+                <br/>
+
+                <label for="text1-val">Item</label>
+                <textarea id="text1-val" rows="1"></textarea>
+
+                <br/>
+
+                <label for="text2-val">Custom Name</label>
+                <textarea id="text2-val" rows="1"></textarea>
+
+                <br/>
+
+                <label for="text3-val">Json Model Name</label>
+                <textarea id="text3-val" rows="1"></textarea>
+
+                <br/>
+
+                <button type="button" id="c-download-btn" class="fileDownloader">
+                    Download
+                </button>
+            </section>
+            </div>
+            </div>
+            </div>
+            <!-- Weapon Models File Constructor -->
+            <div class="weapon-file-constructor-container" id="nWeapon">
+                <div class="row">
+                    <div class="column">
+                        <section class="fileConstructor active" id="weapon">
+                            <label>Model Name</label>
+                            <input type="text" id="filename" value="example.properties"/>
+                
+                            <br/>
+                
+                            <label for="text1-val">Vanilla Weapons to Mask</label>
+                            <textarea id="text1-val" rows="1"></textarea>
+                
+                            <br/>
+                
+                            <label for="text2-val">Custom Name</label>
+                            <textarea id="text2-val" rows="1"></textarea>
+                
+                            <br/>
+                
+                            <label for="text3-val">Json Model Name</label>
+                            <textarea id="text3-val" rows="1"></textarea>
+                
+                            <br/>
+                
+                            <button type="button" id="w-download-btn" class="fileDownloader">
+                                Download
+                            </button>
+                        </section>
+                    </div>
+                </div>
+             </div>
+
+            <!-- Armor Constructor -->
+            <div class="armor-file-constructor-container" id="nArmor">
+                <div class="row">
+                    <div class="column">
+                        <section class="fileConstructor active" id="armor">
+                            <label>Model Name</label>
+                            <input type="text" id="filename" value="example.properties"/>
+            
+                            <br/>
+            
+                            <label for="text1-val">Vanilla Armor Name</label>
+                            <textarea id="text1-val" rows="1"></textarea>
+            
+                            <br/>
+            
+                            <label for="text2-val">Custom Name</label>
+                            <textarea id="text2-val" rows="1"></textarea>
+            
+                            <br/>
+            
+                            <label for="text3-val">Vanilla Armor Layer</label>
+                            <textarea id="text3-val" rows="1"></textarea>
+            
+                            <br/>
+
+                            <label for="text4-val">Custom Armor Layer</label>
+                            <textarea id="text4-val" rows="1"></textarea>
+            
+                            <br/>
+            
+                            <button type="button" id="a-download-btn" class="fileDownloader">
+                                Download
+                            </button>
+                        </section>
+                    </div>
+                </div>
+             </div>
+<!-- Misc Constructor -->
+<div class="misc-file-constructor-container" id="nMisc">
+    <div class="row">
+        <div class="column">
+            <section class="fileConstructor active" id="misc">
+                <label>Model Name</label>
+                <input type="text" id="filename" value="example.properties"/>
+    
+                <br/>
+    
+                <label for="text1-val">Item</label>
+                <textarea id="text1-val" rows="1"></textarea>
+    
+                <br/>
+    
+                <label for="text2-val">Custom Name</label>
+                <textarea id="text2-val" rows="1"></textarea>
+    
+                <br/>
+    
+                <label for="text3-val">Json Model Name</label>
+                <textarea id="text3-val" rows="1"></textarea>
+    
+                <br/>
+    
+                <button type="button" id="m-download-btn" class="fileDownloader">
+                    Download
+                </button>
+            </section>
+        </div>
+    </div>
+ </div>
+            
+            </div>
+        </div>
+     </div>
+    </body>
+</html>

@@ -1,0 +1,3 @@
+matchItems=Enter item model to replace
+nbt.display.Name=ipattern:*Enter item model to replace*
+model=Enter item model to replace
